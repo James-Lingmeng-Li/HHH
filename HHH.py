@@ -20,7 +20,7 @@ It is recommended to setup a Python virtual environment for this project
 """
 
 import datetime
-print('Importing resources...new')
+print('Importing resources...newnew')
 start = datetime.datetime.now()
 
 import sys, os, math, subprocess, pandas, datetime, time, calendar, numpy, pyodbc, re, openpyxl, docx, shutil, threading, traceback, ctypes
