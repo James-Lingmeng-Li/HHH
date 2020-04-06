@@ -1,0 +1,20 @@
+Open terminal (Anaconda)
+
+pushd \\moneytech.com.au\common if this is on common
+
+cd to this directory
+
+pyinstaller yourFileName.py *options
+
+*options:
+--hidden-import pymssql (REQUIRED)
+-D (one directory) (SUGGESTED)
+-F (one file)
+--clean (clear pyinstaller cache prior)
+-i "iconDir" (choose image for the app icon)
+--noconsole (no terminal popup)
+
+
+Copy library, icons & AutoHotkey folder to exe dist folder
+
+Always compile one without --noconsole (e.g. call it HHH_console) and then one with --noconsole (e.g. and call it HHH), then combine by copying just the exe for HHH_console into the dist folder for HHH
