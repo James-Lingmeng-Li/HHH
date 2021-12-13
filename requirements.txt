@@ -14,7 +14,7 @@ idna==2.9
 isort==4.3.21
 jdcal==1.4.1
 lazy-object-proxy==1.4.3
-lxml==4.5.0
+lxml==4.6.5
 macholib==1.11
 mccabe==0.6.1
 mkl-service==2.3.0
