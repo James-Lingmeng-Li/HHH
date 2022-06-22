@@ -18,7 +18,7 @@ lxml==4.5.0
 macholib==1.11
 mccabe==0.6.1
 mkl-service==2.3.0
-numpy==1.18.2
+numpy==1.22.0
 openpyxl==3.0.3
 pandas==1.0.3
 pefile==2019.4.18
